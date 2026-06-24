@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>Berggruen — Vertical Cuts</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{--paper:#f6f3ec;--paper2:#efe9dd;--ink:#181613;--soft:#4a453d;--line:#d8d0bf;--lstrong:#b9ad94;--accent:#b4471f;--deep:#7d2f12}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:"Inter",system-ui,sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased}
+  .serif{font-family:"Fraunces",Georgia,serif}
+  a{color:var(--deep)}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 26px}
+  header{padding:62px 0 26px;border-bottom:1px solid var(--line);text-align:center}
+  .kick{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:14px}
+  h1{font-family:"Fraunces",serif;font-weight:400;font-size:clamp(30px,5vw,52px);letter-spacing:-.015em;margin:0 0 14px;line-height:1.05}
+  h1 em{font-style:italic;color:var(--deep)}
+  .lede{max-width:660px;margin:0 auto;color:var(--soft);font-family:"Fraunces",serif;font-weight:300;font-size:18px}
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;padding:46px 0 20px}
+  @media(max-width:880px){.grid{grid-template-columns:1fr;max-width:420px;margin:0 auto}}
+  .card{display:flex;flex-direction:column}
+  .vwrap{position:relative;border-radius:16px;overflow:hidden;background:#000;box-shadow:0 12px 30px rgba(0,0,0,.26)}
+  video{width:100%;display:block;aspect-ratio:9/16;background:#000}
+  .num{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:700;margin:18px 0 6px}
+  .who{font-family:"Fraunces",serif;font-size:22px;line-height:1.1;margin-bottom:4px}
+  .ttl{font-size:15px;color:var(--ink);font-weight:500;margin-bottom:8px}
+  .desc{font-size:14px;color:var(--soft)}
+  .tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+  .tags span{font-size:11px;background:var(--paper2);border:1px solid var(--lstrong);border-radius:999px;padding:4px 9px;color:var(--soft)}
+  .src{font-size:12px;color:var(--soft);margin-top:10px}
+  .src a{color:var(--deep);text-decoration:none}.src a:hover{text-decoration:underline}
+  .note{max-width:760px;margin:30px auto 0;font-size:14px;color:var(--soft);background:var(--paper2);border:1px dashed var(--lstrong);border-radius:12px;padding:16px 18px}
+  .note b{color:var(--ink)}
+  footer{padding:28px 0 56px;color:var(--soft);font-size:12.5px;border-top:1px solid var(--line);margin-top:40px;text-align:center}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <div class="kick">VideoClaw × Berggruen Institute</div>
+  <h1 class="serif">Three thinkers, <em>cut for the feed</em></h1>
+  <p class="lede">Each long Berggruen video, re-cut into a vertical short — protagonist centered, captions and titles in Berggruen's own typefaces, hook up top. Tap any to play.</p>
+</div></header>
+
+<div class="wrap">
+  <div class="grid">
+
+    <div class="card">
+      <div class="vwrap"><video src="seth.mp4" controls playsinline preload="metadata" poster=""></video></div>
+      <div class="num">01 · Essay Prize winner</div>
+      <div class="who serif">Anil Seth</div>
+      <div class="ttl">“He won $50,000 for an Essay”</div>
+      <div class="desc">A non-linear cut of the neuroscientist on the craft of writing — opening hook card, closing on the essay-competition image.</div>
+      <div class="tags"><span>Non-linear splice</span><span>Hook + close cards</span><span>Diatype captions</span></div>
+      <div class="src">from <a href="https://www.youtube.com/watch?v=oaea9Yzb5zA" target="_blank">Berggruen — Anil Seth</a></div>
+    </div>
+
+    <div class="card">
+      <div class="vwrap"><video src="sandel.mp4" controls playsinline preload="metadata"></video></div>
+      <div class="num">02 · The good life</div>
+      <div class="who serif">Michael Sandel</div>
+      <div class="ttl">“The good life, in 3 ideas”</div>
+      <div class="desc">The political philosopher’s lecture distilled into a numbered list of tips — TIP 01 / 02 / 03 over the source.</div>
+      <div class="tags"><span>List-of-tips</span><span>TIP labels</span><span>Diatype captions</span></div>
+      <div class="src">from <a href="https://www.youtube.com/watch?v=JUxGnHu1R7E" target="_blank">Sandel — On the Good Life</a></div>
+    </div>
+
+    <div class="card">
+      <div class="vwrap"><video src="shafak.mp4" controls playsinline preload="metadata"></video></div>
+      <div class="num">03 · A theme</div>
+      <div class="who serif">Elif Shafak</div>
+      <div class="ttl">“The opposite of kindness isn’t cruelty”</div>
+      <div class="desc">One self-contained passage from the novelist’s salon — her idea that the real danger is <em>numbness</em>, not cruelty.</div>
+      <div class="tags"><span>Single-theme extract</span><span>Hook title</span><span>Diatype captions</span></div>
+      <div class="src">from <a href="https://www.youtube.com/watch?v=_qfY7i0wHXo" target="_blank">Shafak — Berggruen Salon</a></div>
+    </div>
+
+  </div>
+
+  <div class="note"><b>Built to spec:</b> protagonist kept centered in every cut, captions sit below the chin (never over the face), and all on-screen type uses Berggruen’s own fonts (Diatype). Hooks are easy to swap — say the word and any title re-renders in seconds.</div>
+</div>
+
+<footer><div class="wrap">Produced with VideoClaw / productions-sandbox · source footage © Berggruen Institute, shown for demonstration.</div></footer>
+</body>
+</html>
